@@ -1,0 +1,14 @@
+#default properties
+spring:
+    main:
+        banner-mode: console
+# main server properties
+server:
+    port: 8080
+    servlet-path: /
+
+# Spring-actuators base context path
+management:
+    context-path: /manage
+    port: 8071
+#end Spring-actuators properties

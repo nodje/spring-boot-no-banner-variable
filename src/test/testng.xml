@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test" verbose="1">
+    <test name="all">
+        <groups>
+            <run>
+                <include name="util" />
+                <include name="model" />
+                <include name="dao" />
+                <include name="jpa" />
+                <include name="service" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.test.*" />
+        </packages>
+    </test>
+</suite>
